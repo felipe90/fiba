@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="escBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D0C11"/>
+      <stop offset="50%" stop-color="#721B24"/>
+      <stop offset="100%" stop-color="#CA6702"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#escBg)"/>
+  
+  <!-- Pedestal & Marble Form -->
+  <polygon points="300,50 420,240 180,240" fill="#E9D8A6" opacity="0.85"/>
+  <polygon points="300,50 420,240 300,280" fill="#EE9B00" opacity="0.75"/>
+  <polygon points="300,50 180,240 300,280" fill="#CA6702" opacity="0.9"/>
+  
+  <!-- Circular Rings (Kinetic Sculpture Motif) -->
+  <ellipse cx="300" cy="170" rx="140" ry="50" fill="none" stroke="#FDFBF7" stroke-width="6" opacity="0.85" transform="rotate(-20, 300, 170)"/>
+  <ellipse cx="300" cy="170" rx="170" ry="60" fill="none" stroke="#FDE047" stroke-width="4" opacity="0.7" transform="rotate(25, 300, 170)"/>
+  
+  <!-- Pedestal Plinth -->
+  <rect x="220" y="270" width="160" height="70" fill="#001219" rx="4"/>
+  <rect x="200" y="330" width="200" height="30" fill="#3D0C11" rx="4"/>
+  
+  <!-- Lighting & Sparkles -->
+  <circle cx="300" cy="50" r="16" fill="#FFF" opacity="0.95"/>
+  <circle cx="140" cy="110" r="10" fill="#EE9B00" opacity="0.9"/>
+  <circle cx="480" cy="120" r="12" fill="#E9D8A6" opacity="0.9"/>
+</svg>

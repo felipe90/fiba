@@ -1,0 +1,36 @@
+schema: openspec.v1
+project:
+  name: FIBA
+  title: "Fundación Bellas Artes Integra — El ADN del Arte"
+  version: "1.0.0"
+  description: "Plataforma web institucional y catálogo para la Fundación Bellas Artes Integra (FIBA) con arquitectura escalable Headless."
+  stack:
+    framework: "Nuxt 3"
+    frontend: "Vue 3, TypeScript, Tailwind CSS / Custom CSS Tokens"
+    deployment: "Vercel (SSR/SSG)"
+    backend_future: "Strapi v4 Headless CMS (Fase 2)"
+    integrations:
+      - "Stripe (International donations)"
+      - "Yappy (Banco General Panamá local donations)"
+      - "Resend (Transactional emails / Contact)"
+
+paths:
+  specs: "openspec/specs"
+  changes: "openspec/changes"
+  archive: "openspec/changes/archive"
+
+testing:
+  frameworks:
+    - name: "TypeScript"
+      command: "npx nuxi typecheck"
+      coverage: false
+    - name: "Build Validation"
+      command: "npm run build"
+      coverage: false
+    - name: "Vitest (planned)"
+      command: "npx vitest run"
+      coverage: true
+  rules:
+    - "Verify SSR build and TypeScript validity on every change."
+    - "Check mobile and desktop accessibility."
+    - "Validate environment variables against .env.example."

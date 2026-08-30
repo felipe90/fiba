@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D0C11"/>
+      <stop offset="50%" stop-color="#57131A"/>
+      <stop offset="100%" stop-color="#001219"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EE9B00" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#CA6702" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="600" cy="315" r="400" fill="url(#glow)"/>
+  <g transform="translate(600, 230)" text-anchor="middle">
+    <!-- Emblem -->
+    <circle cx="0" cy="-60" r="50" fill="#FDFBF7" stroke="#EE9B00" stroke-width="4"/>
+    <path d="M0 -90 C-20 -90 -30 -75 -30 -58 C-30 -40 -15 -30 0 -30 C5 -30 10 -35 10 -38 C10 -42 5 -45 5 -50 C5 -55 10 -60 18 -60 L25 -60 C32 -60 38 -67 38 -75 C38 -84 25 -90 0 -90 Z" fill="#9B2226"/>
+    <!-- Main Title -->
+    <text y="50" font-family="'Cinzel', serif" font-weight="700" font-size="56" fill="#FDFBF7" letter-spacing="4">FUNDACIÓN BELLAS ARTES INTEGRA</text>
+    <!-- Slogan -->
+    <text y="110" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="28" fill="#EE9B00" letter-spacing="6">EL ADN DEL ARTE</text>
+    <!-- Subtitle -->
+    <text y="160" font-family="'Plus Jakarta Sans', sans-serif" font-weight="400" font-size="20" fill="#E8DFD8" letter-spacing="1">Educación Artística · Inclusión Comunitaria · Patrimonio Cultural</text>
+  </g>
+</svg>

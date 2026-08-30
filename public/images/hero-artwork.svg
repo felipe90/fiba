@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="hBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D0C11"/>
+      <stop offset="35%" stop-color="#721B24"/>
+      <stop offset="75%" stop-color="#9B2226"/>
+      <stop offset="100%" stop-color="#001219"/>
+    </linearGradient>
+    <linearGradient id="hGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="50%" stop-color="#EE9B00"/>
+      <stop offset="100%" stop-color="#CA6702"/>
+    </linearGradient>
+    <linearGradient id="hTeal" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A9396"/>
+      <stop offset="50%" stop-color="#94D2BD"/>
+      <stop offset="100%" stop-color="#E9D8A6"/>
+    </linearGradient>
+    <radialGradient id="hSun" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#EE9B00" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#CA6702" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3D0C11" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="hGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="560" fill="url(#hBg)"/>
+  <circle cx="560" cy="180" r="260" fill="url(#hSun)"/>
+
+  <!-- Organic Wave Layers -->
+  <path d="M-50 420 C 140 230, 260 520, 480 320 C 640 180, 740 380, 850 260 L 850 600 L -50 600 Z" fill="url(#hTeal)" opacity="0.85"/>
+  <path d="M-50 490 C 180 360, 360 590, 580 400 C 700 290, 760 460, 850 370 L 850 600 L -50 600 Z" fill="#CA6702" opacity="0.5"/>
+
+  <!-- Expressive DNA Art Helix -->
+  <g filter="url(#hGlow)">
+    <path d="M 100 450 Q 200 160, 350 260 T 590 140 T 730 300" fill="none" stroke="url(#hGold)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 140 490 Q 240 200, 390 300 T 630 180 T 770 340" fill="none" stroke="#94D2BD" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+    <!-- Connecting strands -->
+    <line x1="200" y1="260" x2="240" y2="310" stroke="#FFF" stroke-width="2.5" opacity="0.8"/>
+    <line x1="300" y1="220" x2="340" y2="270" stroke="#EE9B00" stroke-width="3" opacity="0.9"/>
+    <line x1="410" y1="260" x2="450" y2="210" stroke="#FFF" stroke-width="2.5" opacity="0.8"/>
+    <line x1="510" y1="200" x2="550" y2="250" stroke="#EE9B00" stroke-width="3" opacity="0.9"/>
+    <line x1="610" y1="160" x2="650" y2="210" stroke="#94D2BD" stroke-width="2.5" opacity="0.8"/>
+  </g>
+
+  <!-- Fine Gold Leaf & Pigment Circles -->
+  <circle cx="260" cy="160" r="14" fill="#EE9B00" opacity="0.95"/>
+  <circle cx="330" cy="120" r="7" fill="#FFF" opacity="0.85"/>
+  <circle cx="470" cy="140" r="16" fill="#94D2BD" opacity="0.9"/>
+  <circle cx="630" cy="220" r="10" fill="#EE9B00" opacity="0.95"/>
+  <circle cx="180" cy="340" r="11" fill="#CA6702" opacity="0.85"/>
+  <circle cx="560" cy="360" r="15" fill="#FDFBF7" opacity="0.8"/>
+
+  <!-- Museum Classical Grid Details -->
+  <circle cx="400" cy="280" r="180" fill="none" stroke="rgba(238, 155, 0, 0.4)" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <circle cx="400" cy="280" r="120" fill="none" stroke="rgba(253, 251, 247, 0.25)" stroke-width="1"/>
+</svg>

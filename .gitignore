@@ -1,0 +1,20 @@
+# Nuxt 3 / Vue 3
+.nuxt
+.output
+
+# Dependencies
+node_modules
+
+# pnpm
+.pnpm-builds.json
+.pnpm-store/
+
+# Environment (if you add real .env files later)
+.env*
+
+# IDE / local config
+.atl/
+.npmrc
+
+# Binary / cache files
+.pnpmfile.cjs

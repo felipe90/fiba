@@ -1,0 +1,77 @@
+/* FIBA Design Tokens & Global CSS Variables */
+@import './tokens.css';
+
+:root {
+  /* Brand Primary - Deep Crimson / Carmine */
+  --fiba-primary-50: #FBF5F5;
+  --fiba-primary-100: #F5E6E8;
+  --fiba-primary-200: #ECCDD1;
+  --fiba-primary-300: #DEABB1;
+  --fiba-primary-400: #C87681;
+  --fiba-primary-500: #AE2012;
+  --fiba-primary-600: #9B2226;
+  --fiba-primary-700: #721B24;
+  --fiba-primary-800: #57131A;
+  --fiba-primary-900: #3D0C11;
+  --fiba-primary-950: #230508;
+
+  /* Artistic Accents - Warm Amber & Antique Gold */
+  --fiba-accent-300: #E9D8A6;
+  --fiba-accent-400: #EE9B00;
+  --fiba-accent-500: #CA6702;
+  --fiba-accent-600: #BB3E03;
+
+  /* Secondary / Obsidian / Teal */
+  --fiba-secondary-400: #94D2BD;
+  --fiba-secondary-500: #0A9396;
+  --fiba-secondary-600: #005F73;
+  --fiba-secondary-800: #001824;
+  --fiba-secondary-900: #001219;
+
+  /* Surfaces & Canvas */
+  --fiba-surface-50: #FDFBF7;
+  --fiba-surface-100: #F4EFEA;
+  --fiba-surface-200: #E8DFD8;
+  --fiba-surface-300: #D8CCC2;
+
+  /* Text & Typography */
+  --fiba-text-primary: #1A1514;
+  --fiba-text-secondary: #423B38;
+  --fiba-text-muted: #665E59;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--fiba-text-primary);
+  background-color: var(--fiba-surface-50);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessible focus ring standard */
+:focus-visible {
+  outline: 2px solid var(--fiba-primary-600);
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar for brand elegance */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--fiba-surface-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--fiba-primary-300);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--fiba-primary-600);
+}

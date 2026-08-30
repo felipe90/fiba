@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100" fill="none">
+  <!-- Symbol Icon -->
+  <g transform="translate(10, 10)">
+    <circle cx="40" cy="40" r="38" stroke="#3D0C11" stroke-width="3" fill="#FDFBF7"/>
+    <!-- Palette / Helix hybrid icon -->
+    <path d="M40 16 C25 16 16 28 16 42 C16 56 26 64 36 64 C40 64 42 61 42 58 C42 55 39 53 39 50 C39 46 43 42 48 42 L54 42 C61 42 66 36 66 29 C66 22 55 16 40 16 Z" fill="#9B2226"/>
+    <!-- Color dots -->
+    <circle cx="28" cy="30" r="3.5" fill="#EE9B00"/>
+    <circle cx="38" cy="24" r="3.5" fill="#CA6702"/>
+    <circle cx="50" cy="30" r="3.5" fill="#0A9396"/>
+    <circle cx="28" cy="44" r="3.5" fill="#3D0C11"/>
+  </g>
+  <!-- Text Brand -->
+  <text x="100" y="44" font-family="'Cinzel', 'Playfair Display', serif" font-weight="700" font-size="28" fill="#3D0C11" letter-spacing="3">FIBA</text>
+  <text x="100" y="64" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12" fill="#9B2226" letter-spacing="1.5">BELLAS ARTES INTEGRA</text>
+  <text x="100" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="9.5" fill="#CA6702" letter-spacing="2">EL ADN DEL ARTE</text>
+</svg>
