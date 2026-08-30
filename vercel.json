@@ -1,6 +1,5 @@
 {
   "framework": "nuxt",
   "buildCommand": "nuxt build",
-  "outputDirectory": ".nuxt",
-  "nodeVersion": "22.x"
+  "outputDirectory": ".nuxt"
 }
